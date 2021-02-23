@@ -16,12 +16,18 @@ body{
 }
 
 
+header .container{
+
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    height: 100%;
+    
 }
 
-header .container{
-    border: 1px solid black;
-}
 header .logo{
+    margin-left: 25px;
+    margin-right: 50px;
     color: var(--vermelho);
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 30px;
@@ -29,7 +35,12 @@ header .logo{
 
 header nav a{
     text-decoration: none;
-    color: white;
+    color: #fff;
     margin-right: 10px;
     font-size: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+header nav a:hover{
+    color: #AAA;
 }
