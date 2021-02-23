@@ -24,5 +24,12 @@ header .container{
 header .logo{
     color: var(--vermelho);
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: ;
+    font-size: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
