@@ -48,7 +48,7 @@ header nav a:hover{
 
 /*Filme principal*/
 .principal{
-    font-size: 15px;
+    font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.eu.me.importo.webp');
     height: 580px;
     background-size: cover;
@@ -57,11 +57,43 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
     
+    
 }
 .principal .descricao{
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
 }
 
 .titulo{
-    font-size: 50px;
+    margin-top: 10%;
+    font-size: 60px;
+    margin-left: 20px;
+    
 }
+
+.botao1{
+    margin-bottom: 100px;
+    margin-top: 0px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    margin-left: 20px;
+    margin-right: 14px;
+    font-size: 20px;
+    font: 400 13.3333px Arial;
+}
+
+.botao2{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-color:  rgb(133, 133, 133);
+    font: 400 13.3333px Arial;
+}
+
+
