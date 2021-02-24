@@ -13,6 +13,7 @@
 body{
     background: var(--preto);
     font-family: 'Netflix Sans', 'Helvetica Neue',Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 
