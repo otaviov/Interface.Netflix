@@ -19,6 +19,7 @@ body{
 
 header .container{
 
+    margin-top: 20px;
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -27,7 +28,7 @@ header .container{
 }
 
 header .logo{
-    margin-left: 25px;
+    margin-left: 45px;
     margin-right: 50px;
     color: var(--vermelho);
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -43,50 +44,52 @@ header nav a{
 }
 
 header nav a:hover{
+    
     color: #AAA;
 }
 
 /*Filme principal*/
-.principal{
+.principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.eu.me.importo.webp');
-    height: 580px;
+    height: 620px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    
-    
+
 }
 .principal .descricao{
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 7%;
     
 }
 
 .titulo{
     margin-top: 10%;
     font-size: 60px;
-    margin-left: 20px;
+    margin-left: 7%;
     
 }
 
 .botao1{
+    border-radius: 5px;
     margin-bottom: 100px;
     margin-top: 0px;
     background-color: white;
     border: none;
     color: black;
     padding: 15px 30px;
-    margin-left: 20px;
+    margin-left: 7%;
     margin-right: 14px;
     font-size: 20px;
     font: 400 13.3333px Arial;
 }
 
 .botao2{
+    border-radius: 5px;
     background-color: rgb(59, 59, 59);
     border: none;
     color: white;
