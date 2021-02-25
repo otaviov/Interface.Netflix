@@ -18,7 +18,7 @@ body{
 
 
 header .container{
-    
+
     margin-top: 15px;
     display: flex;
     align-items: center;
@@ -113,3 +113,10 @@ header nav a:hover{
     color: white;
 }
 
+.botao1  i{
+    margin-right: 6px ;
+}
+
+.botao2  i{
+    margin-right: 6px ;
+}
