@@ -18,8 +18,8 @@ body{
 
 
 header .container{
-
-    margin-top: 20px;
+    
+    margin-top: 15px;
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -50,7 +50,7 @@ header nav a:hover{
 
 /*Filme principal*/
 .principal  {
-    font-size: 18px;
+    font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.eu.me.importo.webp');
     height: 620px;
     background-size: cover;
@@ -61,7 +61,7 @@ header nav a:hover{
 
 }
 .principal .descricao{
-    margin-top: 10px;
+    margin-top: -40px;
     margin-bottom: 20px;
     margin-left: 7%;
     
@@ -81,11 +81,13 @@ header nav a:hover{
     background-color: white;
     border: none;
     color: black;
-    padding: 10px 30px;
+    padding: 8px 30px;
     margin-left: 7%;
-    margin-right: 14px;
+    margin-right: 5px;
     font-size: 20px;
     font: 550 18.3333px Arial;
+    cursor: pointer;
+    transition: .3s ease all;
 }
 
 .botao2{
@@ -93,10 +95,21 @@ header nav a:hover{
     background-color: rgb(59, 59, 59);
     border: none;
     color: white;
-    padding: 10px 30px;
+    padding: 8px 30px;
     font-size: 16px;
     border-color:  rgb(133, 133, 133);
     font: 550 18.3333px Arial;
+    cursor: pointer;
+    transition: .3s ease all;
 }
 
+.botao1:hover{
+    background-color: rgba(255, 255, 255, 0.596);
+    color: black;
+}
+
+.botao2:hover{
+    background-color: rgba(124, 124, 124, 0.205);
+    color: white;
+}
 
