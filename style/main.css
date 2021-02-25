@@ -49,8 +49,8 @@ header nav a:hover{
 }
 
 /*Filme principal*/
-.principal {
-    font-size: 16px;
+.principal  {
+    font-size: 18px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.eu.me.importo.webp');
     height: 620px;
     background-size: cover;
@@ -81,11 +81,11 @@ header nav a:hover{
     background-color: white;
     border: none;
     color: black;
-    padding: 15px 30px;
+    padding: 10px 30px;
     margin-left: 7%;
     margin-right: 14px;
     font-size: 20px;
-    font: 400 13.3333px Arial;
+    font: 550 18.3333px Arial;
 }
 
 .botao2{
@@ -93,10 +93,10 @@ header nav a:hover{
     background-color: rgb(59, 59, 59);
     border: none;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-size: 16px;
     border-color:  rgb(133, 133, 133);
-    font: 400 13.3333px Arial;
+    font: 550 18.3333px Arial;
 }
 
 
