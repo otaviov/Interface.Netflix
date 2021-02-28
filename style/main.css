@@ -5,12 +5,14 @@
 
 
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
+    
     background: var(--preto);
     font-family: 'Netflix Sans', 'Helvetica Neue',Helvetica, Arial, sans-serif;
     color: white;
@@ -36,6 +38,7 @@ header .logo{
 }
 
 header nav a{
+    
     text-decoration: none;
     color: #fff;
     margin-right: 10px;
@@ -50,20 +53,22 @@ header nav a:hover{
 
 /*Filme principal*/
 .principal  {
+    
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.eu.me.importo.webp');
-    height: 620px;
+    height: 550px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    
 }
 .principal .descricao{
     margin-top: -40px;
     margin-bottom: 20px;
     margin-left: 7%;
+    
     
 }
 
@@ -119,5 +124,11 @@ header nav a:hover{
 
 .botao2  i{
     margin-right: 6px ;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
